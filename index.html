@@ -2,25 +2,30 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <title>student Form</title>
+        <title>StudentForm</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
     <img src="logo.png" class="logo">
-     <h2>student Registration Form</h2>
-     <div class="form"> </div>
+     <h2>Student Registration Form</h2>
+     <div class="form">
+        <form id="studentForm">
+          
+            <input type="text"id="name"
+            placeholder="Name"><br><br>
+    
+            <input type="email"id="email"
+            placeholder="Email"><br><br> 
 
-        <form>
-            Name:<br>
-            <input type="text"><br><br>
-            Email:<br>
-            <input type="email"><br><br>
-            Mobile:<br>
-            <input type="numeric"><br><br>
-            Password:<br>
-            <input type="password"><br><br>
+            <input type="text"  id="mobile"
+            placeholder="Mobile"><br><br> 
+           
+            <input type="password" id="password"
+            placeholder="Password"><br><br> 
 
             <button type="submit">Register</button>
         </form>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
